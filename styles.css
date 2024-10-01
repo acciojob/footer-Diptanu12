@@ -1,14 +1,8 @@
-/* Basic styles for the footer */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
 
 .footer {
     background-color: #111;
     color: #fff;
-    padding: 10px 10px;
+   
     text-align: left;
 }
 
@@ -25,16 +19,19 @@ body {
     align-items: center; /* Vertically centers the items */
     padding: 20px 0;
     width: 100%;
+
 }
 
 .footer-logo {
     flex: 1; /* Ensures it takes up space on the left */
+		
 }
 
 .footer-logo h2 {
     margin: 0; /* Remove default margin */
     font-size: 24px;
     color: #fff;
+	padding-left:30px;
 }
 
 .social-media {
@@ -65,7 +62,8 @@ body {
 
 .footer-section {
     flex: 1 1 200px;
-    margin: 10px;
+    margin: 20px;
+	
 }
 
 .footer-section h4 {
@@ -93,6 +91,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+	
 }
 
 .social-media a {
@@ -112,20 +111,22 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    border-top: 1px solid #333;
-    padding-top: 10px;
+   padding:10px 0 10px 0;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+   
+	background-color:#2C303A;
 }
 
 .footer-bottom p {
-    margin: 0;
+
+	 margin:10px;
 }
 
 .footer-bottom a {
     color: #aaa;
     text-decoration: none;
+	 margin:10px;
 }
 
 .footer-bottom a:hover {
